@@ -9,23 +9,27 @@
 
 .logo {
   display: flex;
-  color: MediumAquamarine;
   align-items: center;
+  flex-grow: 1;
 }
 
 .logo span {
     padding-left: 15px;
+    color: MediumAquamarine;
 }
 
-.nav {
-  width: 100%;
+nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding-right: 40px;
 }
 
-.nav span a {
+a {
   color: black;
   padding-left: 20px;
+}
+
+div {
+  border: 1px dashed red;
 }
