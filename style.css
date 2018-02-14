@@ -32,3 +32,42 @@ a {
 div {
   border: 1px dashed red;
 }
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  flex-shrink: 0;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+#box1 {
+  background-image: url("./pic/img-story-main.png");
+  font-size: 40px;
+}
+
+.chapter {
+  display: flex;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
