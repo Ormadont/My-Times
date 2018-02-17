@@ -29,21 +29,22 @@ a {
   padding-left: 20px;
 }
 
-div {
+/* div {
   border: 1px dashed red;
-}
+} */
 
 .main {
   display: flex;
   font-family: Georgia;
   font-size: 17px;
+  justify-content: center;
 }
 
 .column {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  margin: 0 15px;
+  margin: 0 5px;
 }
 
 .column.large {
@@ -75,6 +76,16 @@ div {
   background-image: url("../pic/img-story-3.png");
 }
 
+.Main-story, .Second-story, .Third-story {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 10px;
+}
+
+.Other-story {
+  display: flex;
+}
+
 
 .imageHeadline {
   height: 300px;
@@ -82,4 +93,6 @@ div {
   font-size: 30px;
   color: white;
   font-weight: bold;
+  text-align: center;
+
 }
