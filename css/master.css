@@ -35,17 +35,15 @@ div {
 
 .main {
   display: flex;
-  justify-content: center;
-  flex-shrink: 0;
   font-family: Georgia;
   font-size: 17px;
-  flex-shrink: 0;
 }
 
 .column {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  margin: 0 15px;
 }
 
 .column.large {
@@ -60,12 +58,26 @@ div {
   width: 240px;
 }
 
-#box1 {
-  background-image: url("./pic/img-story-main.png");
+#imgStoryMain {
+  background-image: url("../pic/img-story-main.png");
   font-size: 40px;
 }
 
-.chapter {
+#imgStory1 {
+  background-image: url("../pic/img-story-1.png");
+}
+
+#imgStory2 {
+  background-image: url("../pic/img-story-2.png");
+}
+
+#imgStory3 {
+  background-image: url("../pic/img-story-3.png");
+}
+
+
+.imageHeadline {
+  height: 300px;
   display: flex;
   font-size: 30px;
   color: white;
